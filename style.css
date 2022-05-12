@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(1, 94, 94);
+}
+
+header {
+    background-color: rgb(190, 238, 238);
+    /* height: 100px; */
+    width: 90%;
+    margin: auto;
+}
+
+.top-header {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    /* background-color: brown; */
+    height: 100%;
+    width: 10%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    /* background-color: white; */
+    /* padding: 14px 0px; */
+}
+
+.menu nav ul {
+    float: right;
+    padding-right: 10px;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu nav ul li :hover {
+    background-color: pink;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.menu nav ul li a:hover {
+    color: blue;
+}
+
+.btm-h {
+    background-color: pink;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btm-h-text {
+    /* background-color: blueviolet; */
+    width: 40%;
+}
+
+.btm-h-text h2 {
+    font-size: 35px;
+    margin: 25px;
+}
+
+.btm-h-text h2 span {
+    color: rgb(39, 181, 224);
+    font-style: italic;
+}
+
+.btm-h-text p {
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.btm-h-text div a {
+    background-color: rgb(8, 235, 235);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btm-h-text div a:hover {
+    background-color: red;
+    color: white;
+}
+
+.btm-h-img {
+    /* background-color: red; */
+    height: 80%;
+    width: 25%;
+}
+
+.btm-h-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
